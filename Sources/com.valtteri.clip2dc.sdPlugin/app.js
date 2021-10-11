@@ -29,7 +29,10 @@ const action = {
             $SD.api.showAlert(jsn.context);
             return;
         }
-        this.clipToDc(jsn).then(result => $SD.api.showOk(jsn.context)).catch((error) => {
+        this.clipToDc(jsn).then(result => {
+            $SD.api.showOk(jsn.context)
+            setTimeout(function(){$SD.api.openUrl(jsn.content, "https://clips.twitch.tv/" + this.clipURL + "/edit");}, 3000);
+        }).catch((error) => {
             console.log(error);
             $SD.api.showAlert(jsn.context);
             return;
