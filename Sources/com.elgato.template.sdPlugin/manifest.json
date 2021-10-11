@@ -2,25 +2,25 @@
   "Actions": [
     {
       "Icon": "action/images/actionimage", 
-      "Name": "Example Action", 
+      "Name": "Clip2Dc", 
       "States": [
         {
           "Image": "action/images/action"
         }
       ], 
-      "Tooltip": "This is an example tooltip", 
-      "UUID": "com.elgato.template.action"
+      "Tooltip": "Clip to Discord", 
+      "UUID": "com.valtteri.clip2dc.action"
     }
   ], 
   "SDKVersion": 2,
-  "Author": "Elgato", 
+  "Author": "Valtteri", 
   "CodePath": "index.html", 
   "PropertyInspectorPath": "propertyinspector/index.html", 
-  "Description": "Example description", 
-  "Name": "Stream Deck Template", 
+  "Description": "Send clip to discord", 
+  "Name": "Clip2Dc", 
   "Icon": "action/images/action", 
-  "URL": "https://www.elgato.com/en/gaming/stream-deck", 
-  "Version": "1.0.1",
+  "URL": "", 
+  "Version": "1.0.0",
   "OS": [
     {
         "Platform": "mac", 
