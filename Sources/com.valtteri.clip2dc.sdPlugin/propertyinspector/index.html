@@ -28,15 +28,23 @@
       <input id="dcWebhook" class="sdpi-item-value inspector" type="text" value="" />
     </div>
 
-    <div type="checkbox" class="sdpi-item">
-      <div class="sdpi-item-label">Open editor after </div>
-      <input class="sdpi-item-value" id="chk0" type="checkbox" value="left">
-      <label for="chk0"><span></span>left</label>
+    <div type="radio" class="sdpi-item" id="openEditor">
+      <div class="sdpi-item-label">Open editor</div>
+      <div class="sdpi-item-value ">
+          <span class="sdpi-item-child">
+              <input id="rdio1" type="radio" name="rdio" value="true" >
+              <label for="rdio1" class="sdpi-item-label"><span></span>Yes</label>
+          </span>
+          <span class="sdpi-item-child">
+              <input id="rdio2" type="radio" value="false" name="rdio" checked>
+              <label for="rdio2" class="sdpi-item-label"><span></span>No</label>
+          </span>
+      </div>
   </div>
 
     <div class="sdpi-item">
-      <div class="sdpi-item-label">Button</div>
-      <button class="sdpi-item-value" id="save" data-localize="Save">Save</button>
+      <div class="sdpi-item-label">Save</div>
+      <button class="sdpi-item-value" id="save" data-localize="Save" onClick="save()">Save</button>
     </div>
 
 
