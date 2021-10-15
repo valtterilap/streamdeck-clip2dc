@@ -31,7 +31,9 @@ const action = {
         }
         this.clipToDc(jsn).then(result => {
             $SD.api.showOk(jsn.context)
-            setTimeout(function(){$SD.api.openUrl(jsn.content, "https://clips.twitch.tv/" + this.clipURL + "/edit");}, 3000);
+            if(jsn.payload.settings.editClip){
+                $SD.api.openUrl(jsn.content, this.clipURL + "/edit");
+            }
         }).catch((error) => {
             console.log(error);
             $SD.api.showAlert(jsn.context);
