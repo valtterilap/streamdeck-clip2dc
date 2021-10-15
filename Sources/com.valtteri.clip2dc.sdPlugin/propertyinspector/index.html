@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name=viewport
+    content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+  <meta name=apple-mobile-web-app-capable content=yes>
+  <meta name=apple-mobile-web-app-status-bar-style content=black>
+  <title>com.valtteri.clip2dc Property Inspector</title>
+  <link rel="stylesheet" href="css/sdpi.css">
+</head>
+
+<body>
+  <div class="sdpi-wrapper">
+    <div class="sdpi-item">
+      <div class="sdpi-item-label">Channel name</div>
+      <input id="channelName" class="sdpi-item-value inspector" type="text" value="" />
+    </div>
+
+    <div class="sdpi-item">
+      <div class="sdpi-item-label">Twitch token</div>
+      <input id="twitchToken" class="sdpi-item-value inspector globalsetting" type="text" value="" />
+    </div>
+
+    <div class="sdpi-item">
+      <div class="sdpi-item-label">Discord webhook</div>
+      <input id="dcWebhook" class="sdpi-item-value inspector globalsetting" type="text" value="" />
+    </div>
+
+    <div type="radio" class="sdpi-item" id="openEditor">
+      <div class="sdpi-item-label">Open editor</div>
+      <div class="sdpi-item-value ">
+          <span class="sdpi-item-child">
+              <input id="rdio1" type="radio" name="rdio" value="true" >
+              <label for="rdio1" class="sdpi-item-label"><span></span>Yes</label>
+          </span>
+          <span class="sdpi-item-child">
+              <input id="rdio2" type="radio" value="false" name="rdio" checked>
+              <label for="rdio2" class="sdpi-item-label"><span></span>No</label>
+          </span>
+      </div>
+  </div>
+
+    <div class="sdpi-item">
+      <div class="sdpi-item-label">Save</div>
+      <button class="sdpi-item-value" id="save" data-localize="Save" onClick="save()">Save</button>
+    </div>
+
+
+    <!-- END OF SDPI-WRAPPER -->
+
+  </div>
+
+  <div class="sdpi-info-label hidden" style="top: -1000;" value=""></div>
+  <script src="js/common.js"></script>
+  <script src="js/common_pi.js"></script>
+  <script src="js/index_pi.js"></script>
+</body>
+
+</html>

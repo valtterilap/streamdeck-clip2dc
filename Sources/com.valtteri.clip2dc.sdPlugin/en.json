@@ -1,0 +1,15 @@
+{
+  "Description": "Clip from twitch to discord", 
+  "Name": "Clip2Dc", 
+  "Category": "Twitch", 
+  "com.valtteri.clip2dc.action.clip": {
+    "Name": "Clip to discord", 
+    "Tooltip": "Send clip to discord"
+  },
+  "Localization": {
+    "More info": "More info",
+    "Message": "Message",
+    "Click Me": "Click Me",
+    "Button": "Button"
+  }
+}
