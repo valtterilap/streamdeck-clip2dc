@@ -1,37 +1,40 @@
 {
   "Actions": [
     {
-      "Icon": "action/images/actionimage", 
-      "Name": "Clip2Dc", 
+      "Icon": "action/images/actionimage",
+      "Name": "Clip2Dc",
       "States": [
         {
-          "Image": "action/images/action"
+          "Image": "action/images/action",
+          "TitleAlignment": "bottom",
+          "FontSize": "11"
         }
-      ], 
-      "Tooltip": "Clip to Discord", 
-      "UUID": "com.valtteri.clip2dc.action"
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Clip to Discord",
+      "UUID": "com.valtteri.clip2dc.action.clip"
     }
-  ], 
+  ],
   "SDKVersion": 2,
-  "Author": "Valtteri", 
-  "CodePath": "index.html", 
-  "PropertyInspectorPath": "propertyinspector/index.html", 
-  "Description": "Send clip to discord", 
-  "Name": "Clip2Dc", 
-  "Icon": "action/images/action", 
-  "URL": "", 
+  "Author": "Valtteri",
+  "CodePath": "index.html",
+  "PropertyInspectorPath": "propertyinspector/index.html",
+  "Description": "Send clip to discord",
+  "Name": "Clip2Dc",
+  "Icon": "action/images/action",
+  "URL": "",
   "Version": "1.0.0",
   "OS": [
     {
-        "Platform": "mac", 
+        "Platform": "mac",
         "MinimumVersion" : "10.11"
     },
     {
-        "Platform": "windows", 
+        "Platform": "windows",
         "MinimumVersion" : "10"
     }
   ],
-  "Software": 
+  "Software":
     {
         "MinimumVersion" : "4.1"
   }

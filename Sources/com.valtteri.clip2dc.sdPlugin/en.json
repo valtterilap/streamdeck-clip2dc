@@ -1,10 +1,10 @@
 {
-  "Description": "Use this to create your own plugin", 
-  "Name": "Stream Deck Template", 
-  "Category": "Templates", 
-  "com.valtteri.clip2dc.action": {
-    "Name": "Action", 
-    "Tooltip": "This is the only action in this plugin"
+  "Description": "Clip from twitch to discord", 
+  "Name": "Clip2Dc", 
+  "Category": "Twitch", 
+  "com.valtteri.clip2dc.action.clip": {
+    "Name": "Clip to discord", 
+    "Tooltip": "Send clip to discord"
   },
   "Localization": {
     "More info": "More info",
