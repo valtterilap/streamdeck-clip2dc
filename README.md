@@ -4,7 +4,8 @@
 You will be redicted to `http://localhost/#access_token=<access_token>&scope=clips%3Aedit&token_type=bearer`  
 Page says "This site can't be reached" but copy the access token from url  
 ![Access token url](/img/authToken.png)  
-**Save** the token somewhere **secure** for future usage.
+**Save** the token somewhere **secure** for future usage.  
+### NEVER SHARE YOUR TWITCH ACCESS TOKEN WITH ANYONE!  
 ## 3. Install application
 1. Download latest release. Note download only the com.valtteri.clip2dc.streamDeckPlugin
 2. Run the com.valtteri.clip2dc.streamDeckPlugin and click install form Stream Deck app  
