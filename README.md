@@ -16,6 +16,6 @@ Page says "This site can't be reached" but copy the access token from url
 1. Set title (optional)
 2. Give channel name
 3. Add Twitch access token you got before
-4. Add discord webhook url
+4. Add discord webhook url [(Creating new webhook)](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
 5. If you want to open clip editor afterwards select yes. This opens Twitch clip editor in browser after clip is created.
 6. Click save
