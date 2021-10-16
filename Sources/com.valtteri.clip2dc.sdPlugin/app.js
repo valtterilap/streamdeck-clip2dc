@@ -70,7 +70,7 @@ const action = {
         const clipJson = await fetchClipResponse.json();
         console.log(clipJson);
         this.clipURL = "https://clips.twitch.tv/" + clipJson.data[0].id
-        response = await fetch("https://discordapp.com/api/webhooks/895682977768538152/CZU1qkATOUk3kFjE1Bue5DxSu80pXrN5bkmJLT2WGNLoGluQDJcvM10FgfkRvNlk9SLp", {
+        response = await fetch(jsn.payload.settings.dcWebhook, {
             "method": "POST",
             "headers": {
                 "content-type": "application/json",
