@@ -23,7 +23,7 @@
   "Name": "Clip2Dc",
   "Icon": "action/images/action",
   "URL": "",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "OS": [
     {
         "Platform": "mac",
